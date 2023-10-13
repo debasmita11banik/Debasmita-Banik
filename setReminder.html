@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Set Reminder</title>
+</head>
+<body>
+    <main>
+        <label for="selectDate">Select Date:</label>
+        <input type="date" id="selectDate" name="selectDate">
+        
+        <label for="selectSubject">Select Subject:</label>
+        <select id="selectSubject" name="selectSubject">
+            <option value="subject1">Subject 1</option>
+            <option value="subject2">Subject 2</option>
+            <!-- Add more subjects as needed -->
+        </select>
+        
+        <label for="addDescription">Add Description:</label>
+        <textarea id="addDescription" name="addDescription" rows="4"></textarea>
+        
+        <label for="emailAddress">Email Address:</label>
+        <input type="text" id="emailAddress" name="emailAddress">
+        
+        <label for="contactNo">Contact No:</label>
+        <input type="text" id="contactNo" name="contactNo">
+        
+        <label for="smsNo">SMS No:</label>
+        <input type="text" id="smsNo" name="smsNo">
+        
+        <label>Recur for next:</label>
+        <input type="checkbox" id="recur7" name="recur7" value="7"> 7 Days
+        <input type="checkbox" id="recur5" name="recur5" value="5"> 5 Days
+        <input type="checkbox" id="recur3" name="recur3" value="3"> 3 Days
+        <input type="checkbox" id="recur2" name="recur2" value="2"> 2 Days
+        
+        <button type="submit" id="saveButton">Save</button>
+        <button type="button" id="cancelButton">Cancel</button>
+        <a href="login.html">Log out</a>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
